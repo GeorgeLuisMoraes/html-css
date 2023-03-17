@@ -1,0 +1,36 @@
+/*
+id são usadas para 1 elemento, é algo particular
+class são usas para vários elementos
+*/
+body {
+    background-image: linear-gradient(to bottom, #888098, #CFB3CD, #DFC2F2);
+}
+
+h1 {
+    color: #344055;
+    
+}
+
+#principal {
+    text-align: center;
+}
+
+h2 {
+    color: #266DD3;
+}
+
+.básico {
+    color: rgb(36, 97, 28);
+}
+
+.intermediário {
+    color: rgb(100, 87, 27);
+}
+
+.avançado {
+    color: rgb(107, 27, 27);
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>A tag &lt;code&gt; deixa as letras do mesmo tamanho</p>
+    <p>A tag &lt;pre&gt; deixa o texto exatamente como foi escrito no código HTML, considerando inclusive espaços e quebra de linhas. </p>
+    <p>O comando no teclado shift + tab retira todo os espaços antes de algum texto, este foi utilizado abaixo, para que o código python ficasse alinhado na esquerda.</p>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+num = int(input('Digite um número: '))
+if num % 2 == 0:
+    print(f'O número {num} é par!')
+else:
+    print(f'O número {num} é ímpar!')
+print('fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo meu: <q>o computador é um burro muito rápido.</q></p>
+    <p>o &lt;q&gt; coloca aspas, mas além disso, ele adiciona sentido à citação.</p>
+    <h2>Citações completas</h2>
+    <p>A tag &lt;blockquote&gt; faz uma citação e ainda informa um link de onde foi retirada a citação.</p>
+    <p>Como cita Maurício Samy em seu livro: </p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML5_2%C2%AA_Edi%C3%A7%C3%A3o/f7JVBQAAQBAJ?hl=pt-BR&gbpv=0">
+        HTML5 é a linguagem de marcação que amplia de forma surpreendente as funcionalidades da HTML
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Se você quer dar o significado de uma abreviação, pode usar a tag &lt;abbr&gt;.</p>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p>A tag &lt;bdo&gt; serve para inverter um texto.</p>
+    <p><bdo dir="rtl">A tag &lt;bdo&gt; serve para inverter um texto.</bdo></p>
+    <p>viu só?</p>
+</body>
+</html>

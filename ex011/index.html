@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Experimente redimensionar o tamanho da página web</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="maceio-300.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="maceio-700.jpg" type="image/jpg">
+        <img src="maceio-1000.jpg" alt="maceió full">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML</p>
+    <audio src="midia/Ice & Fire - King Canyon.mp3" controls preload="metadata"></audio>
+</body>
+</html>

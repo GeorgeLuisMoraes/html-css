@@ -1,0 +1,16 @@
+Aula curso em vídeo HTML5 e CSS3: módulo 1 de 5
+
+*significado de front-end e back-end:
+	front-end é o desenvolvedor que se preocupará com a experiência do cliente, ou seja um client-server.
+É o front-end que trabalha com html, css e javascript.
+	back-end é o desenvolvedor que trabalha com o lado do servidor, ou seja, um server-side
+
+*significado de desenvolvedor full-stack:
+	desenvolvedor full-stack é o profissional capaz de trabalhar tanto com front-end, como com back-end.
+
+*sempre usar letras minúsculas nos arquivos.
+
+*&lt; e &gt;
+	&lt; e &gt; servem para dentro do HTML, você ser capaz de exibir no navegador os símbolos < e >, respectivamente.
+
+
